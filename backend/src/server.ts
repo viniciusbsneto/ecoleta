@@ -1,10 +1,10 @@
 import express from 'express';
+import routes from './routes';
 
 const app = express();
 
-// Rotas
-app.get('/', (request, response) => {
-  response.json({ message: 'Basic Express API' })
-});
+app.use(express.json());
+
+app.use(routes);
 
 app.listen(3333);
