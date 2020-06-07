@@ -1,8 +1,10 @@
-### Apresentação da Aplicação
+### Ecoleta
 
 O Ecoleta é um marketplace de coleta de resíduos.
 Ele permite o cadastramento de pontos de coletas (estabelecimentos) através da aplicação web.
 O usuários que possuem itens residuais a serem coletados tem à disposição o app mobile para busca desses pontos de coleta.
+
+![alt text](https://media-exp1.licdn.com/dms/image/C4E22AQHd_Tz0RJ9jtQ/feedshare-shrink_2048_1536/0?e=1594252800&v=beta&t=tli6HSSL0EamQuek04zXTp7fh3Jh7BA7Tr5aly4nX6A)
 
 O Ecoleta foi uma aplicação utilizada na Next Level Week 1.0 da Rocketseat para ensinar na prática como desenvolver uma API RESTful com NodeJS, um front-end web com ReactJS e um app mobile com React Native.
 
@@ -15,18 +17,18 @@ Além de estudar essa stack de tecnologias aproveitei o projeto para praticar fl
 ### Requerimento/Dependências
 
 - Todas as dependências podem ser instaladas com o gerenciador de pacotes NPM.
-- Basta executar o comando npm install
+- Basta executar o comando ```npm install```
 
 ### Como Começar
 
 #### Back-end (API)
-- Utilize o comando npm run dev no terminal no diretório apropriado (/backend)
+- Utilize o comando ```npm run dev``` no terminal no diretório apropriado (/backend)
 #### Front-end (Web)
-- Para executar a aplicação web utilize o comando npm start em seu diretório (/frontend)
+- Para executar a aplicação web utilize o comando ```npm start``` em seu diretório (/frontend)
 #### Mobile
-1º - Para executar o app mobile, acesse a store de seu dispositivo móvel e instale o aplicativo Expo.
-2º - Em seguida, abra um terminal e execute o comando expo start. Então abra o app Expo e escaneie o QR Code.
-3º - Agora basta abrir o item mobile que aparecerá listado no Expo.
+1. Para executar o app mobile, acesse a store de seu dispositivo móvel e instale o aplicativo Expo.
+2. Em seguida, abra um terminal e execute o comando ```expo start```. Então abra o app Expo e escaneie o QR Code.
+3. Agora basta abrir o item mobile que aparecerá listado no Expo.
 
 ### Lançamentos Principais
 
@@ -39,11 +41,9 @@ Além de estudar essa stack de tecnologias aproveitei o projeto para praticar fl
 - Utilizar a API do IBGE para listar UFs e cidades nos campos de busca por pontos de coleta (mobile)
 
 ### Pendências
-- Corrigir sobreposição dos inputs nos textos na tela Home do app mobile (Android) - ???
-- Upload de imagens no cadastro de pontos de coleta (dropzone) - Multer
-- Validação de entrada de dados - Joi com Celebrate
+[] Corrigir sobreposição dos inputs nos textos na tela Home do app mobile (Android) - ???
 
 ### Licença e Créditos
 
-- Todo o projeto foi idealizado pela Rocketseat e apresentado na Next Level Week 1.0 gratuitamente
+- Todo o projeto foi idealizado pela @rocketseat e apresentado gratuitamente na Next Level Week 1.0 na trilha Booster pelo @diego3g
 - Este repositório guarda a minha reprodução pessoal do projeto para fins exclusivamente didáticos
