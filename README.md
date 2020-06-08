@@ -16,10 +16,14 @@ Além de estudar essa stack de tecnologias aproveitei o projeto para praticar fl
 
 ### Requerimento/Dependências
 
-- Todas as dependências podem ser instaladas com o gerenciador de pacotes NPM.
+- Todas as dependências devem ser instaladas com o gerenciador de pacotes NPM.
 - Basta executar o comando ```npm install```
 
 ### Como Começar
+
+#### Database
+1. Execute o comando ```npm run knex:migrate``` para criar as tabelas
+2. Execute o comando ```npm run knex:seed``` para popular a tabela **items** com os items que constam em *backend/src/database/seeds/create_items.ts*
 
 #### Back-end (API)
 - Utilize o comando ```npm run dev``` no terminal no diretório apropriado (/backend)
