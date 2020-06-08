@@ -1,2 +1,8 @@
 node_modules
+
+uploads/*
+!uploads/.gitkeep
+
+*.sqlite
+
 .editorconfig
