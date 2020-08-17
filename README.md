@@ -4,7 +4,7 @@ O Ecoleta é um marketplace de coleta de resíduos.
 Ele permite o cadastramento de pontos de coletas (estabelecimentos) através da aplicação web.
 O usuários que possuem itens residuais a serem coletados tem à disposição o app mobile para busca desses pontos de coleta.
 
-![alt text](https://media-exp1.licdn.com/dms/image/C4E22AQHd_Tz0RJ9jtQ/feedshare-shrink_2048_1536/0?e=1594252800&v=beta&t=tli6HSSL0EamQuek04zXTp7fh3Jh7BA7Tr5aly4nX6A)
+![alt text](https://github.com/rocketseat-education/nlw-01-booster/blob/master/.github/ecoleta.png)
 
 O Ecoleta foi uma aplicação utilizada na Next Level Week 1.0 da Rocketseat para ensinar na prática como desenvolver uma API RESTful com NodeJS, um front-end web com ReactJS e um app mobile com React Native.
 
